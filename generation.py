@@ -6,7 +6,6 @@ from ImageCreator import ImageCreator
 from Passport import PassportContent, PassportAppearance
 from utils.path_utils import Paths
 
-print(tqdm)
 def generate_path(count_examples, output):
     """
     Generate path of passport images.
