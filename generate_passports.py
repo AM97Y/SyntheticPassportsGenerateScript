@@ -25,7 +25,7 @@ def generate_synthetic_images(save_dir, count_images):
         passport_appearance.font_pick = passport_content.font_pick
         passport_appearance.random_init()
 
-        img = ImageCreator(passport_content.content, passport_appearance.content).create_image() # synthetic image
+        img = ImageCreator(passport_content.content, passport_appearance.content).create_image()  # synthetic image
 
         img_filepath = Path(save_dir) / f'{datetime.now().strftime("%Y-%m-%d-%H.%M.%S.%f")}.png'
         img.save(str(img_filepath))
