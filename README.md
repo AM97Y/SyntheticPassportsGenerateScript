@@ -1,6 +1,6 @@
 # SyntheticPassportsGenerateScript
 
-This program allows to generate dataset of RF passports for machine learning.
+This program allows to generate a dataset of RF passports for machine learning.
 
 ## Installation
 
@@ -21,5 +21,5 @@ This program allows to generate dataset of RF passports for machine learning.
 
 
 1) Run script:
-    python main.py --output_path <output path> --count <number of augmented images>
+    python main.py --output_path <output path> --number_images <number of augmented images>
 For more information launch `python generation.py -h`. 
