@@ -20,6 +20,6 @@ This program allows to generate a dataset of RF passports for machine learning.
 ## Generation
 
 
-1) Run script:
+    1) Run script:
     python main.py --output_path <output path> --number_images <number of augmented images>
-For more information launch `python generation.py -h`. 
+For more information launch `python generate_passports.py -h`. 
